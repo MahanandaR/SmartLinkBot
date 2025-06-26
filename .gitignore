@@ -1,0 +1,4 @@
+chotbot/
+__pycache__/
+.env
+resources/
