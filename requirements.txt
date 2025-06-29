@@ -1,4 +1,7 @@
 # Ensure ChromaDB works with modern SQLite
+
+# sqlite3 >= 3.35.0 is required (check with: python -c "import sqlite3; print(sqlite3.sqlite_version)")
+
 pysqlite3-binary>=0.5.0
 
 # Core AI & RAG components
