@@ -27,4 +27,16 @@ streamlit==1.43.0
 import sys
 import pysqlite3
 sys.modules["sqlite3"] = pysqlite3
+streamlit
+langchain
+langchain-community
+langchain-core
+langchain-huggingface
+langchain-groq
+huggingface_hub
+markdown-it-py
+mdurl
+pygments
+rich
+typing-extensions
 
