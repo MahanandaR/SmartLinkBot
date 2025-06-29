@@ -186,6 +186,9 @@ What did the Prime Minister say today?
 
 Any international news involving India?
 
+Streamlit App Link : https://smartlinkbot-lh5dxq5wbnhapwzqrqxxju.streamlit.app/
+------------------
+
 ![image](https://github.com/user-attachments/assets/49ef2a0c-293b-4887-bf59-3a93f4f73641)
 
 
