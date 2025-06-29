@@ -12,6 +12,7 @@ import os
 import streamlit as st
 import sys
 import pysqlite3
+import sqlite3
 sys.modules["sqlite3"]=pysqlite3
 
 # Load environment variables from .env
