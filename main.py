@@ -1,6 +1,7 @@
 import streamlit as st
 from rag import generate_answer, process_urls
 
+import sqlite3
 import sys
 import pysqlite3
 sys.modules["sqlite3"]=pysqlite3
