@@ -7,7 +7,9 @@ sys.modules["sqlite3"]=pysqlite3
 import time
 
 # Page config
-st.set_page_config(page_title="Smart URL Answer Bot", page_icon="🔗", layout="centered")
+st.set_page_config(page_title="Smart URL Answer Bot", 
+                   page_icon="🔗", 
+                   layout="wide")
 
 # Dark Mode Toggle
 dark_mode = st.sidebar.toggle("🌙 Dark Mode")
@@ -120,7 +122,7 @@ url3 = st.sidebar.text_input("URL 3")
 status_placeholder = st.empty()
 
 # Process Button
-if st.sidebar.button("🚀 Process URLs"):
+if st.sidebar.button("🚀 Process URLs", help="Click to process the URLs and create the knowledge base"):
     urls = [u for u in [url1, url2, url3] if u.strip()]
     if not urls:
         status_placeholder.error("⚠️ Please enter at least one valid URL.")
@@ -130,6 +132,15 @@ if st.sidebar.button("🚀 Process URLs"):
 
 
 st.markdown("---")
+
+# Instructions
+st.markdown("""
+### 📖 How to use:
+1. **Enter URLs** in the fields above
+2. **Click Process URLs** to analyze content
+3. **Ask questions** in the main area
+4. **Get AI-powered answers** with sources
+""")
 
 # Ask Question
 st.subheader("💬 Ask a Question")
