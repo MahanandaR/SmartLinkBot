@@ -23,8 +23,8 @@ CHUNK_SIZE=1000
 EMBEDDING_MODEL ="Alibaba-NLP/gte-base-en-v1.5"
 VECTOR_STORE_DIR=Path(__file__).parent/"resources/vector_store"
 COLLECTION_NAME="real_estate"
-#hf_token=os.getenv("HUGGINGFACEHUB_API_TOKEN")
-hf_token=st.secrets["APIKEYS"]["HUGGINGFACEHUB_API_TOKEN"]
+hf_token=os.getenv("HUGGINGFACEHUB_API_TOKEN")
+#hf_token=st.secrets["APIKEYS"]["HUGGINGFACEHUB_API_TOKEN"]
 
 # Ensure token is present
 
