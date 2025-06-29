@@ -131,16 +131,7 @@ if st.sidebar.button("🚀 Process URLs", help="Click to process the URLs and cr
             status_placeholder.info(status)
 
 
-#st.markdown("---")
-
-# Instructions
-st.markdown("""
-### 📖 How to use:
-1. **Enter URLs** in the fields above
-2. **Click Process URLs** to analyze content
-3. **Ask questions** in the main area
-4. **Get AI-powered answers** with sources
-""")
+st.markdown("---")
 
 # Ask Question
 st.subheader("💬 Ask a Question")
