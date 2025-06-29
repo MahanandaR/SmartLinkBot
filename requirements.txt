@@ -24,4 +24,7 @@ python-oxmsg==0.0.2
 unstructured==0.16.23
 unstructured-client==0.31.0
 streamlit==1.43.0
+import sys
+import pysqlite3
 sys.modules["sqlite3"] = pysqlite3
+
