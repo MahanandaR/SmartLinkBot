@@ -131,7 +131,7 @@ if st.sidebar.button("🚀 Process URLs", help="Click to process the URLs and cr
             status_placeholder.info(status)
 
 
-st.markdown("---")
+#st.markdown("---")
 
 # Instructions
 st.markdown("""
