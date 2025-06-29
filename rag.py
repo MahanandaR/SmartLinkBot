@@ -9,10 +9,9 @@ from langchain_groq import ChatGroq   #For Module
 from langchain_huggingface.embeddings import HuggingFaceEmbeddings   #way to convert text into vectors
 from huggingface_hub import login
 import os
-import streamlit as st
+
 import sys
 import pysqlite3
-import sqlite3
 sys.modules["sqlite3"]=pysqlite3
 
 # Load environment variables from .env
