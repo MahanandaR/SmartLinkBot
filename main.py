@@ -122,7 +122,7 @@ url3 = st.sidebar.text_input("URL 3")
 status_placeholder = st.empty()
 
 # Process Button
-if st.sidebar.button("🚀 Process URLs", help="Click to process the URLs and create the knowledge base"):
+if st.sidebar.button("🚀 Process URLs"):
     urls = [u for u in [url1, url2, url3] if u.strip()]
     if not urls:
         status_placeholder.error("⚠️ Please enter at least one valid URL.")
