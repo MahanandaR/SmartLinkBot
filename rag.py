@@ -101,7 +101,7 @@ def generate_answer(query):
 
 if __name__=="__main__":
     # Step 1: Initialize the components
-    #initialize_components()
+    initialize_components()
     
     urls=["https://www.foxbusiness.com/personal-finance/todays-mortgage-rates-august-14-2024",
     "https://www.foxbusiness.com/personal-finance/todays-mortgage-rates-august-13-2024"]
